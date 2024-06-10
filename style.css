@@ -1,0 +1,45 @@
+*{
+    padding: o;
+    margin: 0rem;
+    
+    
+}
+body{
+    background-color: rgb(12, 175, 175);
+
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header, h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(2, 2, 37);
+}
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3vw;
+   
+}
+
+.gallery-items{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.gallery-items:hover{
+    transform: scale(1.5);
+}
+footer{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(2, 2, 37);
+}
